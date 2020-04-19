@@ -179,7 +179,7 @@ class _MyDialPadWidget extends State<DialPadWidget>
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Dart SIP UA Demo"),
+          title: Text("TalkPlus Sip Test v01"),
           actions: <Widget>[
             PopupMenuButton<String>(
                 onSelected: (String value) {
